@@ -1,2 +1,4 @@
-# Terraform_ec2
+# Creating ec2 instance using Terraform
+
+# This includes 3 files 
 
