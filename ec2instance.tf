@@ -7,7 +7,7 @@ resource "aws_instance" "instance" {
   vpc_security_group_ids      = ["sg-095bfc19ca0de1120"]
   subnet_id                   = "subnet-07394ef2e4689bffe"
   # iam_instance_profile        = "LabRole"
-  count = 1
+  count = 2
   tags = {
     Name = "Sandbox1"
   }
