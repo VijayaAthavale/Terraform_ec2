@@ -4,8 +4,8 @@ resource "aws_instance" "instance" {
   availability_zone           = "us-west-2a"
   associate_public_ip_address = true
   key_name                    = "vockey"
-  vpc_security_group_ids      = ["sg-0a8c1da08a1227111"]
-  subnet_id                   = "subnet-059d83d99ec87eea9"
+  vpc_security_group_ids      = ["sg-095bfc19ca0de1120"]
+  subnet_id                   = "subnet-08a38c6e6a2b20774"
   # iam_instance_profile        = "LabRole"
   count = 1
   tags = {
