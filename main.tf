@@ -4,6 +4,6 @@ resource "aws_vpc" "dev_vpc" {
  enable_dns_hostnames = true
  enable_dns_support = true
  tags    = {
-  name   = "deham10"
+  name   = "awsRestartVPC"
  }
 }
